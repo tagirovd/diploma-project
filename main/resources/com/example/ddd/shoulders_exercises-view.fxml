@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="800.0" style="-fx-background-color: #23272A;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ddd.ExercisesController">
+    <children>
+        <AnchorPane layoutY="-4.0" prefHeight="548.0" prefWidth="800.0" style="-fx-background-color: #2C2F33;">
+            <children>
+                <Line endX="495.60003662109375" endY="-7.62939453125E-6" layoutX="265.0" layoutY="86.0" startX="-67.59999084472656" startY="-7.62939453125E-6" stroke="#7289da" strokeWidth="3.0" />
+                <Label layoutX="424.0" layoutY="41.0" text="Упражнения" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Bold" size="18.0" />
+                    </font>
+                </Label>
+                <AnchorPane layoutX="179.0" layoutY="149.0" prefHeight="270.0" prefWidth="600.0" style="-fx-background-color: 43484f; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #7289DA;">
+                    <children>
+                        <Label layoutX="28.0" layoutY="27.0" text="1." textFill="WHITE">
+                            <font>
+                                <Font name="Arial Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="28.0" layoutY="67.0" text="2." textFill="WHITE">
+                            <font>
+                                <Font name="Arial Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="28.0" layoutY="107.0" text="3." textFill="WHITE">
+                            <font>
+                                <Font name="Arial Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="exercise_4" layoutX="42.0" layoutY="136.0" textFill="WHITE">
+                            <font>
+                                <Font name="Arial Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="28.0" layoutY="147.0" text="4." textFill="WHITE">
+                            <font>
+                                <Font name="Arial Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="28.0" layoutY="187.0" text="5." textFill="WHITE">
+                            <font>
+                                <Font name="Arial Bold" size="14.0" />
+                            </font>
+                        </Label>
+                  <Button fx:id="exercise_button7" layoutX="64.0" layoutY="22.0" mnemonicParsing="false" onAction="#ExAction7" style="-fx-background-color: #2C2F33; -fx-border-radius: 20;" text="Отведение рук с гантелями в стороны" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="64.0" layoutY="62.0" mnemonicParsing="false" style="-fx-background-color: #2C2F33; -fx-border-radius: 20;" text="Отведение рук с гантелями в стороны в наклоне" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="64.0" layoutY="102.0" mnemonicParsing="false" style="-fx-background-color: #2C2F33; -fx-border-radius: 20;" text="Жим гантелями вверх" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="64.0" layoutY="142.0" mnemonicParsing="false" style="-fx-background-color: #2C2F33; -fx-border-radius: 20;" text="Внешнее вращение" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="64.0" layoutY="182.0" mnemonicParsing="false" style="-fx-background-color: #2C2F33; -fx-border-radius: 20;" text="Внутреннее вращение" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+                    </children>
+                </AnchorPane>
+            <AnchorPane layoutX="196.0" layoutY="97.0" prefHeight="42.0" prefWidth="566.0" style="-fx-background-color: #23272A; -fx-background-radius: 20;">
+               <children>
+                  <Button fx:id="back_button" layoutX="37.0" layoutY="8.0" mnemonicParsing="false" onAction="#BackAction" style="-fx-background-color: #23272A; -fx-border-radius: 20;" text="Спина" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="chest_button" layoutX="153.0" layoutY="8.0" mnemonicParsing="false" onAction="#ChestAction" style="-fx-background-color: #23272A; -fx-border-radius: 20;" text="Грудь" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="legs_button" layoutX="257.0" layoutY="8.0" mnemonicParsing="false" onAction="#LegsAction" style="-fx-background-color: #23272A; -fx-border-radius: 20;" text="Ноги" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="hand_button" layoutX="367.0" layoutY="8.0" mnemonicParsing="false" onAction="#HandAction" style="-fx-background-color: #23272A; -fx-border-radius: 20;" text="Руки" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="shoulders_button" layoutX="477.0" layoutY="8.0" mnemonicParsing="false" onAction="#ShouldersAction" style="-fx-background-color: #23272A; -fx-border-radius: 20;" text="Дельты" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Line endX="-39.00001525878906" endY="0.600006103515625" layoutX="533.0" layoutY="33.0" stroke="#7289da" />
+               </children>
+            </AnchorPane>
+            </children>
+        </AnchorPane>
+      <AnchorPane prefHeight="540.0" prefWidth="158.0" style="-fx-background-color: #23272A;">
+         <children>
+            <AnchorPane layoutX="5.0" layoutY="14.0" prefHeight="52.0" prefWidth="148.0" style="-fx-background-color: #23272A; -fx-background-radius: 20;">
+               <children>
+                  <Button fx:id="workout_button" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" onAction="#WorkoutAction" prefHeight="41.0" prefWidth="126.0" style="-fx-background-color: #23272A; -fx-border-radius: 5;" text="Тренировка" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="5.0" layoutY="74.0" prefHeight="52.0" prefWidth="148.0" style="-fx-background-color: #2C2F33; -fx-background-radius: 20; -fx-border-color: #7289DA; -fx-border-radius: 20;">
+               <children>
+                  <Button fx:id="exercises_button" layoutX="11.0" layoutY="5.0" mnemonicParsing="false" onAction="#ExercisesAction" prefHeight="41.0" prefWidth="126.0" style="-fx-background-color: #2C2F33; -fx-border-radius: 5;" text="Упражнения" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="5.0" layoutY="140.0" prefHeight="52.0" prefWidth="148.0" style="-fx-background-color: #23272A; -fx-background-radius: 20;">
+               <children>
+                  <Button fx:id="profile_button" layoutX="11.0" layoutY="5.0" mnemonicParsing="false" onAction="#ProfileAction" prefHeight="41.0" prefWidth="126.0" style="-fx-background-color: #23272A; -fx-border-radius: 5;" text="Профиль" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
